@@ -2,92 +2,51 @@
 #include "funciones.h"
 
 
-int MostrarMenu(int opcionA)
-{
-    int opciona;
-
-    printf("1. Ingresar 1er operando (A=x) \n");
-    printf("2. Ingresar 2do operando (B=y) \n");
-    printf("3- Calcular todas las operaciones \n");
-    printf("4- Informar resultados \n");
-    printf("5- Salir \n");
-    fflush(stdin);
-    scanf("%d", &opciona);
-    while(opciona!=1&&opciona!=2&&opciona!=3&&opciona!=4&&opciona!=5)
-    {
-        printf("1. Ingresar 1er operando (A=x) \n");
-        printf("2. Ingresar 2do operando (B=y) \n");
-        printf("3- Calcular todas las operaciones \n");
-        printf("4- Informar resultados \n");
-        printf("5- Salir \n");
-        fflush(stdin);
-        scanf("%d", &opciona);
-    }
-
-    return opciona;
-}
-
+/*
 float CargarNumeros(float numeros)
 {
-    int i;
-    int tam=1;
-    for(i=0; i<tam; i++)
-    {
-        printf("Ingrese un numero: ");
-        scanf("%f", &numeros);
-    }
+    printf("Ingrese un numero: ");
+    scanf("%.2f", &numeros);
 }
-
-int CalcularFactorial(float numero)
+*/
+float CalcularFactorial(float numero)
 {
-    int resultado;
-
+    float factorial;
     if(numero == 0)
     {
-        resultado = 1;
+        factorial = 1;
     }
     else
     {
-        resultado =(int) numero * CalcularFactorial(numero - 1);
+        factorial = numero * CalcularFactorial(numero - 1);
     }
-
-    return resultado;
+    return factorial;
 }
 
-float Division(float numero,float divisor)
+float Division(float primerNumero,float segundoNumero)
 {
-    float resultado;
-    if(numero==0||divisor==0)
-    {
-        printf("Ingreso un 0, por favor verifique de nuevo su valor");
-
-    }
-    else
-    {
-        resultado=numero/divisor;
-    }
-
-
-    return resultado;
+    float dividir;
+    dividir=primerNumero/segundoNumero;
+    return dividir;
 }
 
-float SumarTotales(float numero, float acum)
+float SumarTotales(float primerNumero, float segundoNumero)
 {
     float suma;
-    suma=numero+acum;
+    suma=primerNumero+segundoNumero;
     return suma;
 }
 
-float RestarTotales(float numero, float acum)
+float RestarTotales(float primerNumero, float segundoNumero)
 {
     float resta;
-    resta=numero-acum;
+    resta=primerNumero-segundoNumero;
     return resta;
 }
 
-float MultiplicarTotales(float numero, float acum)
+float MultiplicarTotales(float primerNumero, float acum)
 {
-    long long int multiplicaNumero;
-    multiplicaNumero=numero*acum;
-    return multiplicaNumero;
+    long long int multiplicar;
+    multiplicar=primerNumero*acum;
+    return multiplicar;
 }

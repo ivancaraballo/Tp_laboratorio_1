@@ -1,13 +1,10 @@
 # depslib dependency file v1.0
-1599837672 source:c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\tp1\tpprogramación1\prueba funciones.c
+1599950205 source:c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\tp1\tpprogramación1\prueba funciones.c
 	"funciones.h"
 
-1599837676 c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\tp1\tpprogramación1\funciones.h
-	<stdio.h>
-	<ctype.h>
-	<string.h>
+1599950205 c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\tp1\tpprogramación1\funciones.h
 
-1599837684 source:c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\tp1\tpprogramación1\main.c
+1599950614 source:c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\tp1\tpprogramación1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
