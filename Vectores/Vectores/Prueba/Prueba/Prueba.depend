@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1599742501 source:c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\vectores\vectores\prueba\prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1599746154 source:c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\vectores\vectores\prueba\prueba\funciones.c
+	"prog.h"
+
+1599746123 c:\users\ivanc\onedrive\escritorio\git\tp_laboratorio_1\vectores\vectores\prueba\prueba\prog.h
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+
