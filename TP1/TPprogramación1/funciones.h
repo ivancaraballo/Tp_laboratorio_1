@@ -1,13 +1,4 @@
 
-/** \brief carga de los numeros
- *
- * \param float el valor de los numeros ingresados
- * \return float los numeros ingresados
- *
- *//*
-float CargarNumeros(float );
-*/
-
 /** \brief calcula la suma de los dos numeros ingresados
  *
  * \param float el valor del primer numero ingresado

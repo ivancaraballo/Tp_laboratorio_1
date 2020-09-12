@@ -2,13 +2,6 @@
 #include "funciones.h"
 
 
-/*
-float CargarNumeros(float numeros)
-{
-    printf("Ingrese un numero: ");
-    scanf("%.2f", &numeros);
-}
-*/
 float CalcularFactorial(float numero)
 {
     float factorial;
